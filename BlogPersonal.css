@@ -1,0 +1,109 @@
+body{
+    background-color: #B9EDDD;
+    margin: 0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/*Configuracion de los elementos resaltantes*/
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+p, li{
+    font-size: 20px;
+    margin-bottom: 5px 5px;
+}
+h3, h1{
+    text-align: center;
+    font-size: 26px;
+    margin: 0 0;
+}
+#Nombre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+table{
+    margin: 0 0;
+    width: 100%;
+    border-color: aliceblue;
+}
+#Redes{
+    width: 80px;
+    height: 80px;
+}
+/*
+    Configuracion de los bloques
+*/
+header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #577D86;
+    color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 10px 10px 10px;
+}
+.Info{
+    width: 100%;
+    background-color: #569DAA;
+    text-align: justify;
+    margin: 20px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+.Descripcion{
+    width: 100%;
+    background-color: #569DAA;
+    padding: 20px;
+    margin: 20px 10px 10px 10px;
+    border-radius: 20px;
+}
+.Habilidades{
+    width: 20%;
+    height: auto;
+    float: left;
+    display: block;
+    background-color: #87CBB9;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    color: black;
+}
+.Paradigmas{
+    width: 30%;
+    height: auto;
+    display: block;
+    background-color: #87CBB9;
+    padding: 20px;
+    margin:10px 0px 10px 0px;
+    border-radius: 20px;
+    color: black;
+    float: left;
+}
+.Valores{
+    width: 35%;
+    height: auto;
+    display: block;
+    background-color: #87CBB9;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    color: black;
+    float: right;
+}
+footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #577D86;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 20px 10px 10px 10px;
+    display: inline-block;
+}
